@@ -3,3 +3,4 @@
 
 - end-goal would be to pass in a tidymodels workflow (that may include e.g. a parsnip model specification, a preprocessing recipe, a cross-validation resampling scheme) and would output an object that could be used in a `predict()` method to provide uncertainty levels for new observations.
 - see field of conformal inference for broad range of approaches / "uncertainty specifications" that may look to set-up.
+- a lot of the most successful approaches though seem to incorporate quantile regression, etc, so may not be able to stay agnostic to model fit procedure.
